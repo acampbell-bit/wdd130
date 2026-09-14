@@ -1,5 +1,6 @@
 nav {
   background-color: darkblue;
+  padding: 10px;
 }
 
 nav a {
@@ -39,7 +40,7 @@ aside {
   text-align: center;
 }
 
-img aside {
+aside img {
   width: 200;
   height: auto;
 }
