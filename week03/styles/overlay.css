@@ -28,7 +28,7 @@ h1 {
 }
 
 .stats {
-    /* position: absolute; */
+    position: relative;
     top: 25px;
     right: 25px;
     bottom: 25px;
@@ -38,7 +38,6 @@ h1 {
     padding: 0.65rem;
     box-shadow: 0 0 30px #111;
     opacity: 0.9;
-    float: left;
 }
 
 h2 {
