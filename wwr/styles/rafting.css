@@ -1,54 +1,75 @@
-
 :root {
-    --color-one: #a5d5e0f3; /*gray&blueish*/
-    --color-two: #fcfc17; /*yellow*/
-    --color-three: #5b0606; /*burgandy*/
-    --color-four: #046408; /*Deep Green*/
+    --color-one: #a5d5e0f3;
+    /*gray&blueish*/
+    --color-two: #fcfc17;
+    /*yellow*/
+    --color-three: #5b0606;
+    /*burgandy*/
+    --color-four: #046408;
+    /*Deep Green*/
     --Large-font: 'Montserrat' sans-serif;
     --Paragraph-font: 'Open Sans', sans-serif;
 }
+
 header {
     background-color: var(--color-two);
     color: var(--color-three)
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: var(--Large-font);
     color: var(--color-four)
 }
-header, main, footer {
+
+header,
+main,
+footer {
     width: 840px;
     margin: 0 auto;
 }
+
 /* 7. Style the headings (all of just those you are using) by declairingthe font-family and text color */
-h1, h2 {
+h1,
+h2 {
     font-family: var(--Paragraph-font);
     color: var(--color-three)
 }
-nav, p, section, article {
+
+nav,
+p,
+section,
+article {
     margin: 16px;
     padding: 8px;
 }
+
 /* 9. Remove the underlines from the social media image links in the footer.  This default underline on hyperlinks is considered to be visually distracting and unnecessary when applied to images as links. Only applies to anchor tags (a) */
 .socialmedia a {
     text-decoration: none;
 }
-    /* step 5 style the hero div with overlays */
-    /* 1. Style div */
-.hero { /*style the div with class hero*/
+
+/* step 5 style the hero div with overlays */
+/* 1. Style div */
+.hero {
+    /*style the div with class hero*/
     position: relative;
 }
-.hero img { /*div class="hero"*/
+
+.hero img {
+    /*div class="hero"*/
     display: block;
     width: 100%;
     height: auto;
 }
+
 /* h1 seems to be the banner "Whitewater Adventures */
-h1 { 
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -58,33 +79,42 @@ h1 {
     background-color: var(--color-three);
     color: #fff;
 }
+
 article {
     position: absolute;
     padding: 0;
     background-color: #fff;
+    bottom: 3em;
+    left: 3em;
+    right: 3em;
 }
-.hero article img { /*img inside article by floating right & some margin wand specific width*/
+
+.hero article img {
+    /*img inside article by floating right & some margin wand specific width*/
     float: right;
     width: 125px;
     /* my additions: Need to float img to right and provide margin and specific width. the css for img must be specific for img only.   */
     border: #fff;
     box-shadow: #5b0606;
 }
+
 header img {
     width: 80px;
     height: auto;
 }
-div img {
+
+img {
     width: 100%;
     height: auto;
 }
-article img {
-    width: 150px;
-    height: auto;
-}
+
 nav img {
     width: 20px;
     height: auto;
 }
 
-
+footer {
+    background-color: #3e3e3e;
+    color: #fefefe;
+    padding: 1em .5em;
+}
