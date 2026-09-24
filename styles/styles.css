@@ -1,13 +1,13 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 :root {
     --main-color: darkblue;
     --secondary-color: #eee;
     --third-color: #000;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 nav {
@@ -61,6 +61,7 @@ aside h2 {
     transform: translateX(-50%);
     top: 3rem;
 }
+
 footer {
     margin-top: 15px;
     border-top: 1px solid var(--third-color);
