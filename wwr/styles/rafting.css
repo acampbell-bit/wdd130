@@ -95,7 +95,7 @@ article {
     width: 125px;
     /* my additions: Need to float img to right and provide margin and specific width. the css for img must be specific for img only.   */
     border: #fff;
-    box-shadow: #5b0606;
+    box-shadow: 6px 6px 5px 0px rgba(22, 16, 16, 0.467)
 }
 
 header img {
