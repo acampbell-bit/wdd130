@@ -12,7 +12,7 @@
 }
 
 header {
-    background-color: var(--color-two);
+    background-color: var(--color-one);
     color: var(--color-three)
 }
 
@@ -80,7 +80,7 @@ article {
     color: #fff;
 }
 
-article {
+.hero article {
     position: absolute;
     padding: 0;
     background-color: #fff;
@@ -94,7 +94,7 @@ article {
     float: right;
     width: 125px;
     /* my additions: Need to float img to right and provide margin and specific width. the css for img must be specific for img only.   */
-    border: #fff;
+    border: var(--color-two);
     box-shadow: 6px 6px 5px 0px rgba(22, 16, 16, 0.467)
 }
 
