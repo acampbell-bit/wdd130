@@ -6,14 +6,30 @@ body {
 .flex-container {
     border: 3px dashed darkcyan;
     background-color: lightyellow;
+    /* Flex containers and flex items: The container is the parent and has the display: flex;
+        declaration. The items are the direct children of the container and can be manipulated using various flex properties */
+    /* flex only */
     display: flex;
+    /* Flex direction: The flex-direction property defines the direction in which the flex items are placed in the flex container. It can be set to row, row-reverse, column, or column-reverse. */
+    /* row, row-reverse, column, column-reverse */
+    flex-direction: row;
+    /* Justify content: The justify-content property aligns the flex items along the main axis (horizontally in a row, vertically in a column). It can be set to values like flex-start, flex-end, center, space-between, or space-around. */
+    /* flex-start, flex-end, center, space-between, space-around */
+    justify-content: space-around;
+    /* Align items: The align-items property aligns the flex items along the cross axis (vertically in a row, horizontally in a column). It can be set to values like flex-start, flex-end, center, baseline, or stretch. */
+    /* center will return items to original size.  Space-around will center and space evenly */
+    /* flex-start, flex-end, center, baseline, stretch */
+    align-items: stretch;
+    /*Place items: The place-items property is a shorthand for align-items and justify-items. It can be used to control the alignment of items within a grid container. */
+    /* ..... */
+    /* wrap- wraps items when screen is small. */
     flex-wrap: wrap;
 }
 
 .flex-item {
-    width: 250px;
+    width: 35px;
     margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 20%);
+    border: 1px solid rgb(0 0 0 / 0.02);
     padding: 0.5rem;
     background-color: #bbb;
     color: #333;
