@@ -5,7 +5,7 @@
 }
 
 a {
-  color: #00f;
+  color: #262651;
 }
 
 header,
@@ -82,6 +82,7 @@ aside h2 {
 ul {
   list-style: none;
   padding: 1rem;
+
 }
 
 /* class selectors */
