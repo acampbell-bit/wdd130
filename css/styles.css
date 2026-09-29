@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+a {
+  color: #00f;
+}
+
 header,
 .grid,
 footer {
@@ -32,35 +36,35 @@ nav a {
 }
 
 h1 {
-  border-bottom: 1px solid #333;
-  color: darkblue;
+  border-bottom: 1px solid #222;
 }
 
 main img {
   width: 150px;
   height: auto;
   float: right;
+  margin: 1rem 0 1rem 1rem;
   border: 1px solid black;
   padding: 2px;
   box-shadow: 0 0 30px gray;
 }
 
 p {
-  padding: 0;
+  padding: 1rem;
 }
 
 main {
-  max-width: 640px;
+  max-width: 50rem;
   grid-column: 2/3;
-  margin: 1rem;
+  margin: 0;
 }
 
 aside {
   width: 20rem;
-  margin: 10px 0;
   position: relative;
-  grid-column: ;
-  /* 1 */
+  grid-column: 1/2;
+  grid-row: 1/2
+    /* 1 */
 }
 
 aside img {
@@ -76,11 +80,15 @@ aside h2 {
   top: 3rem;
 }
 
+ul {
+  list-style: none;
+  padding: 1rem;
+}
+
 /* class selectors */
 .box {
   border: 1px solid #b71234;
   padding: 1rem;
-  margin: 1rem;
   background-color: #cccaca;
   color: #1a044e;
 }
@@ -88,15 +96,17 @@ aside h2 {
 .grid {
   display: grid;
   align-items: center;
-  grid-template-columns: ;
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 footer {
+  display: block;
   background-color: #3e3e3e;
   color: #fff;
-  /* Turn these on and off to see what works best */
-  /* margin: 2rem auto: */
-  /* margin-top: 2rem;  */
-  /* border-bottom: 2rem; */
+  /* Turn these on and off to   see what works best */
+  margin-top: 2rem;
+  border-bottom: 2rem;
   padding: 2rem 1 rem;
 }
