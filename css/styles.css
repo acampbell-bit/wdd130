@@ -17,7 +17,7 @@ footer {
 }
 
 nav {
-  background-color: steelblue;
+  background-color: rgb(41, 7, 28);
   padding: 1rem;
   display: flex;
   justify-content: space-evenly;
@@ -26,13 +26,11 @@ nav {
 
 nav a {
   display: block;
-  padding: 0.5rem;
+  padding: 20px;
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: 700;
-  /* color: white; shorthand for white and #six f's */
-  display: block;
-  padding: 20px;
+  color: #6bf1e0
 }
 
 h1 {
@@ -63,8 +61,8 @@ aside {
   width: 20rem;
   position: relative;
   grid-column: 1/2;
-  grid-row: 1/2
-    /* 1 */
+  grid-row: 1/2;
+  /* 1 */
 }
 
 aside img {
@@ -108,5 +106,5 @@ footer {
   /* Turn these on and off to   see what works best */
   margin-top: 2rem;
   border-bottom: 2rem;
-  padding: 2rem 1 rem;
+  padding: 2rem 1rem;
 }
