@@ -17,7 +17,7 @@ footer {
 }
 
 nav {
-  background-color: rgb(41, 7, 28);
+  background-color: rgb(46, 54, 99);
   padding: 1rem;
   display: flex;
   justify-content: space-evenly;
@@ -30,11 +30,12 @@ nav a {
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: 700;
-  color: #6bf1e0
+  color: #d6c981
 }
 
 h1 {
   border-bottom: 1px solid #222;
+  text-align: center;
 }
 
 main img {
@@ -107,4 +108,5 @@ footer {
   margin-top: 2rem;
   border-bottom: 2rem;
   padding: 2rem 1rem;
+  text-align: center;
 }
