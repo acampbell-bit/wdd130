@@ -50,6 +50,7 @@ main,
 footer {
     width: 840px;
     margin: 0 auto;
+    padding: .5rem;
 }
 
 /* 7. Style the headings (all of just those you are using) by declairingthe font-family and text color */
@@ -128,6 +129,7 @@ section img {
 
 .ad-caption {
     text-align: center;
+    padding: 1rem;
 }
 
 .adventure {
