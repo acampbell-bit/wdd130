@@ -12,8 +12,26 @@
 }
 
 header {
+
     background-color: var(--color-one);
     color: var(--color-three)
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 400px repeat(1, 1fr);
+    grid-row: 1/4;
+    align-items: center;
+    justify-items: right;
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        list-style: none;
+        text-decoration: none;
+
+    }
 }
 
 * {
@@ -38,7 +56,8 @@ footer {
 h1,
 h2 {
     font-family: var(--Paragraph-font);
-    color: var(--color-three)
+    color: var(--color-three);
+    text-align: center;
 }
 
 nav,
@@ -49,9 +68,18 @@ article {
     padding: 8px;
 }
 
-/* 9. Remove the underlines from the social media image links in the footer.  This default underline on hyperlinks is considered to be visually distracting and unnecessary when applied to images as links. Only applies to anchor tags (a) */
-.socialmedia a {
-    text-decoration: none;
+section img {
+    width: 80px;
+    height: auto;
+}
+
+.paragraph img {
+    width: auto;
+    height: px;
+}
+
+.paragraph {
+    display: flex;
 }
 
 /* step 5 style the hero div with overlays */
@@ -98,6 +126,23 @@ article {
     box-shadow: 6px 6px 5px 0px rgba(22, 16, 16, 0.467)
 }
 
+.ad-caption {
+    text-align: center;
+}
+
+.adventure {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.5rem;
+    text-align: center;
+    object-fit: cover;
+
+}
+
+.adventure img {
+    object-fit: cover;
+}
+
 header img {
     width: 80px;
     height: auto;
@@ -109,12 +154,23 @@ img {
 }
 
 nav img {
+
     width: 20px;
     height: auto;
+    position: relative;
+    float: inline-end;
+}
+
+/* 9. Remove the underlines from the social media image links in the footer.  This default underline on hyperlinks is considered to be visually distracting and unnecessary when applied to images as links. Only applies to anchor tags (a) */
+.socialmedia a {
+
+    text-decoration: none;
 }
 
 footer {
     background-color: #3e3e3e;
     color: #fefefe;
-    padding: 1em .5em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
