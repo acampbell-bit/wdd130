@@ -19,19 +19,22 @@ header {
 
 .header {
     display: grid;
-    grid-template-columns: 400px repeat(1, 1fr);
-    grid-row: 1/4;
+    grid-template-columns: auto 1fr;
     align-items: center;
-    justify-items: right;
+}
 
-    ul {
-        display: flex;
-        flex-direction: row;
-        gap: 2rem;
-        list-style: none;
-        text-decoration: none;
+header img {
+    width: 80px;
+    height: auto;
+}
 
-    }
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-evenly;
 }
 
 * {
@@ -50,7 +53,7 @@ main,
 footer {
     width: 840px;
     margin: 0 auto;
-    padding: .5rem;
+    padding: 0;
 }
 
 /* 7. Style the headings (all of just those you are using) by declairingthe font-family and text color */
@@ -66,7 +69,7 @@ nav,
 p,
 section,
 article {
-    margin: 16px;
+    /* margin: 16px; */
     padding: 8px;
 }
 
@@ -78,10 +81,15 @@ section img {
 .paragraph img {
     width: auto;
     height: 80px;
+    justify-self: center;
+
 }
 
 .paragraph {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* step 5 style the hero div with overlays */
@@ -138,17 +146,13 @@ section img {
     flex-direction: row;
     gap: 1.5rem;
     text-align: center;
-    object-fit: cover;
+    justify-content: space-between;
 
 }
 
 .adventure img {
-    object-fit: cover;
-}
-
-header img {
     width: 80px;
-    height: auto;
+    height: 53.35px;
 }
 
 img {
