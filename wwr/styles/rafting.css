@@ -134,8 +134,8 @@ section img {
 }
 
 .adventure {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    display: flex;
+    flex-direction: row;
     gap: 1.5rem;
     text-align: center;
     object-fit: cover;
