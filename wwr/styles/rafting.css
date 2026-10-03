@@ -136,18 +136,18 @@ section img {
     box-shadow: 6px 6px 5px 0px rgba(22, 16, 16, 0.467)
 }
 
-.ad-caption {
-    text-align: center;
-    padding: 1rem;
-}
-
 .adventure {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
     gap: 1.5rem;
     text-align: center;
-    justify-content: space-between;
 
+}
+
+.adventure h2 {
+    grid-column: 1 / span 5;
+    text-align: center;
 }
 
 .adventure img {
