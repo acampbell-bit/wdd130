@@ -120,7 +120,7 @@ section img {
 
 .hero article {
     position: absolute;
-    padding: 0;
+    padding: .5;
     background-color: var(--color-two);
     bottom: 3em;
     left: 3em;
