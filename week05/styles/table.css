@@ -1,0 +1,24 @@
+/* table */
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(219, 109, 109);
+    letter-spacing: 1px;
+    text-align: center;
+
+}
+
+/* th */
+/* td */
+tbody th,
+tbody td {
+    border: 1px solid rgb(16, 12, 230);
+    padding: 8px 12px;
+}
+
+/* thread th, tfoot tr */
+thead tr,
+tfoot tr {
+    background-color: #b7f50c;
+    color: rgb(6, 58, 65);
+    font-weight: 700;
+}
