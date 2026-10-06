@@ -1,5 +1,5 @@
 :root {
-    --main-color: darkblue;
+    --main-color: #becab7;
     --secondary-color: #eee;
     --third-color: #000;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -32,7 +32,7 @@ form {
     padding: 1rem;
     border: 1px dotted var(--third-color);
     border-radius: 2rem;
-    background-color: var(--main-color);
+    background-color: var(--secondary-color);
     display: grid;
     gap: .5em;
 }
