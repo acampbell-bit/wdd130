@@ -1,7 +1,7 @@
 :root {
     --main-color: #3321ac;
-    --secondary-color: #ecd1ca;
-    --third-color: #054f08;
+    --secondary-color: #ede5e3;
+    --third-color: #145416;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -33,7 +33,7 @@ form {
     padding: 1rem;
     border: 5px dotted var(--third-color);
     border-radius: 2rem;
-    background-color: #eee;
+    background-color: #e5e8e5;
     gap: .5em;
 }
 
@@ -72,7 +72,7 @@ button,
 select,
 textarea {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: right;
+    text-align: center;
     padding-right: 1rem;
 }
 
@@ -98,7 +98,7 @@ input[type="checkbox"] {
 
 label[for="feedback"] {
     text-align: center;
-    padding-right: 0;
+    padding-right: 5rem;
 }
 
 button {
