@@ -4,21 +4,37 @@
     --third-color: #000;
 }
 
+/* Class Selectors */
+.box {
+    border: 1px solid #b71234;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #cccaca;
+    color: #1a044e;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+header {
+    margin: 0;
+    padding: 0;
+
+}
+
 nav {
     background-color: var(--main-color);
     padding: 0;
+
 }
 
 nav a {
     color: var(--secondary-color);
     display: inline-block;
-    padding: 10px;
+    padding: 0;
 }
 
 h1 {
@@ -66,13 +82,4 @@ footer {
     margin-top: 15px;
     border-top: 1px solid var(--third-color);
     text-align: center;
-}
-
-/* Class Selectors */
-.box {
-    border: 1px solid #b71234;
-    padding: 1rem;
-    margin: 1rem;
-    background-color: #cccaca;
-    color: #1a044e;
 }
