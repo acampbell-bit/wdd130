@@ -34,7 +34,6 @@ header img {
     flex-direction: row;
     gap: 1.5rem;
     list-style: none;
-    text-decoration: none;
     justify-content: space-evenly;
 
 }
@@ -56,6 +55,10 @@ footer {
     width: 840px;
     margin: 0 auto;
     padding: 0;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* 7. Style the headings (all of just those you are using) by declairingthe font-family and text color */
@@ -207,6 +210,7 @@ form {
 
 button:hover {
     background-color: rgb(44, 31, 41);
+    cursor: pointer;
 }
 
 fieldset {
@@ -299,7 +303,7 @@ button {
     background-color: var(--color-three);
     border-radius: .5rem;
     box-shadow: 2px 2px 5px #3e3e3e;
-
+    text-decoration: none;
     margin-bottom: 5px;
 }
 
