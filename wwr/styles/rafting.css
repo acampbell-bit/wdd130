@@ -397,9 +397,11 @@ th {
 }
 
 .trips-button {
-    padding: 1rem;
+
     display: block;
+    padding: 16px 2rem;
     margin: 1rem auto;
+    border: none;
 }
 
 footer {
